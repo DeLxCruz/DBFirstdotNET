@@ -1,0 +1,17 @@
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\bin\Debug\net7.0\APP.deps.json
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\bin\Debug\net7.0\APP.dll
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\bin\Debug\net7.0\APP.pdb
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\bin\Debug\net7.0\Domain.dll
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\bin\Debug\net7.0\Persistence.dll
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\bin\Debug\net7.0\Domain.pdb
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\bin\Debug\net7.0\Persistence.pdb
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\APP.csproj.AssemblyReference.cache
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\APP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\APP.AssemblyInfoInputs.cache
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\APP.AssemblyInfo.cs
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\APP.csproj.CoreCompileInputs.cache
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\APP.csproj.CopyComplete
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\APP.dll
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\refint\APP.dll
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\APP.pdb
+C:\Users\APM02-36\Documents\cs\.NET\DBFirstdotNET\APP\obj\Debug\net7.0\ref\APP.dll
