@@ -11,7 +11,6 @@ namespace API.Dtos
         public string Name { get; set; }
         public string Idcustomer { get; set; }
         public int IdTipoPersonaFk { get; set; }
-        public DateTime DateRegister { get; set; }
         public int IdcityFk { get; set; }
         
     }

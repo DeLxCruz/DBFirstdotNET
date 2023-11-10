@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace Domain.Entities;
 
@@ -15,7 +16,7 @@ public partial class Customer : BaseEntity
     public DateOnly DateRegister { get; set; }
 
     public int IdcityFk { get; set; }
-
+    
     public virtual PersonType IdTipoPersonaFkNavigation { get; set; } = null!;
 
     public virtual City IdcityFkNavigation { get; set; } = null!;

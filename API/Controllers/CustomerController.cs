@@ -8,6 +8,7 @@ using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Persistence.Data;
 
 namespace API.Controllers
 {
@@ -15,11 +16,13 @@ namespace API.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly DBFirstContext _context;
 
-        public CustomerController(IUnitOfWork unitOfWork, IMapper mapper)
+        public CustomerController(IUnitOfWork unitOfWork, IMapper mapper, DBFirstContext context)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _context = context;
         }
 
         [HttpGet]
@@ -45,6 +48,20 @@ namespace API.Controllers
             }
 
             return _mapper.Map<CustomerDto>(Customers);
+        }
+
+        [HttpGet("GetCustomerWithCity/{city}")]
+        public Task<IQueryable<CustomersWithCity>> GetCustomerWitCity(string city)
+        {
+            var Customers = from c in _context.Customers
+                            join ci in _context.Cities on c.IdcityFk equals ci.Id
+                            where ci.Name == city
+                            select new CustomersWithCity
+                            {
+                                Name = c.Name,
+                                City = ci.Name
+                            };
+            return Task.FromResult(Customers);
         }
 
         [HttpPost]
